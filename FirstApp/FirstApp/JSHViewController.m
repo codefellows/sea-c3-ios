@@ -7,6 +7,7 @@
 //
 
 #import "JSHViewController.h"
+#import "JSHSecondViewController.h"
 
 @implementation JSHViewController
 
@@ -18,6 +19,11 @@
 //    [_mySwitch setOn: NO];
 }
 
+- (IBAction)unwindToRootViewController:(UIStoryboardSegue *)segue
+{
+    NSString *sourceVCString = [[(JSHSecondViewController *)segue.sourceViewController myTextField] text];
+    [_myLabel setText:sourceVCString];
+}
 //- (void)setMySwitch:(UISwitch *)mySwitch
 //{
 //    if (mySwitch != _mySwitch)

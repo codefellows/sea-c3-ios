@@ -11,6 +11,7 @@
 @interface JSHViewController : UIViewController
 
 @property (nonatomic, weak) IBOutlet UISwitch *mySwitch;
+@property (nonatomic, weak) IBOutlet UILabel *myLabel;
 
 - (IBAction)logSwitchStatus:(id)sender;
 
