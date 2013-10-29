@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "UIImageView+Rounded.h"
+#import "PostsDataController.h"
 
 @interface RootViewController () <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
@@ -20,6 +21,7 @@
 
 - (IBAction)getAPicture:(id)sender
 {
+    
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
     picker.delegate = self;
     picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
@@ -53,8 +55,14 @@
 
 #pragma mark - UIImagePickerControllerDelegate
 
+
+
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
+    NSArray *posts = [[PostsDataController sharedController] posts];
+    
+    
+    
     NSLog(@"Did Finish");
     
     [self dismissViewControllerAnimated:YES completion:^{

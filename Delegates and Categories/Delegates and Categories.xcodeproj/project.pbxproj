@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFB6B6B4181F50C20034C93B /* PostsDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB6B6B3181F50C20034C93B /* PostsDataController.m */; };
 		EFCB4D6B181A169400AC45E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCB4D6A181A169400AC45E5 /* Foundation.framework */; };
 		EFCB4D6D181A169400AC45E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCB4D6C181A169400AC45E5 /* CoreGraphics.framework */; };
 		EFCB4D6F181A169400AC45E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCB4D6E181A169400AC45E5 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EFB6B6B2181F50C20034C93B /* PostsDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsDataController.h; sourceTree = "<group>"; };
+		EFB6B6B3181F50C20034C93B /* PostsDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsDataController.m; sourceTree = "<group>"; };
 		EFCB4D67181A169400AC45E5 /* Delegates and Categories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delegates and Categories.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCB4D6A181A169400AC45E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EFCB4D6C181A169400AC45E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +127,8 @@
 				EFCB4DA0181A16B000AC45E5 /* RootViewController.m */,
 				EFCB4DA2181A1EA100AC45E5 /* UIImageView+Rounded.h */,
 				EFCB4DA3181A1EA100AC45E5 /* UIImageView+Rounded.m */,
+				EFB6B6B2181F50C20034C93B /* PostsDataController.h */,
+				EFB6B6B3181F50C20034C93B /* PostsDataController.m */,
 			);
 			path = "Delegates and Categories";
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 			files = (
 				EFCB4DA4181A1EA100AC45E5 /* UIImageView+Rounded.m in Sources */,
 				EFCB4D7B181A169400AC45E5 /* AppDelegate.m in Sources */,
+				EFB6B6B4181F50C20034C93B /* PostsDataController.m in Sources */,
 				EFCB4D77181A169400AC45E5 /* main.m in Sources */,
 				EFCB4DA1181A16B000AC45E5 /* RootViewController.m in Sources */,
 			);
@@ -466,6 +472,7 @@
 				EFCB4D9B181A169400AC45E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFCB4D9C181A169400AC45E5 /* Build configuration list for PBXNativeTarget "Delegates and CategoriesTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +481,7 @@
 				EFCB4D9E181A169400AC45E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
