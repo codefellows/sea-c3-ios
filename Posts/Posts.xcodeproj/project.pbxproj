@@ -64,6 +64,7 @@
 		EFB6B6FF181F5BD70034C93B /* PostEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostEditViewController.h; sourceTree = "<group>"; };
 		EFB6B700181F5BD70034C93B /* PostEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostEditViewController.m; sourceTree = "<group>"; };
 		EFB6B702181F642F0034C93B /* PostEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostEditViewController.xib; sourceTree = "<group>"; };
+		EFB6B704181F6D0F0034C93B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +113,7 @@
 		EFB6B6C0181F51980034C93B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EFB6B704181F6D0F0034C93B /* AVFoundation.framework */,
 				EFB6B6C1181F51980034C93B /* Foundation.framework */,
 				EFB6B6C3181F51980034C93B /* CoreGraphics.framework */,
 				EFB6B6C5181F51980034C93B /* UIKit.framework */,
