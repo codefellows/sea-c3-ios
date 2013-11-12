@@ -1,0 +1,13 @@
+PODS:
+  - KAProgressLabel (1.1)
+  - THProgressView (1.0)
+
+DEPENDENCIES:
+  - KAProgressLabel
+  - THProgressView (~> 1.0)
+
+SPEC CHECKSUMS:
+  KAProgressLabel: 3fb25c824f2b83077ae05630ee714a4e6468e3d7
+  THProgressView: 2e19cf950671bb6d5d562433d5b04be93e6ffd35
+
+COCOAPODS: 0.27.1
