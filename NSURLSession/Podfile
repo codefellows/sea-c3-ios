@@ -1,0 +1,3 @@
+platform :ios, '7.0'
+
+pod 'THProgressView', '~> 1.0'
