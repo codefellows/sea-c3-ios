@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF00417B183B100200CE19C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF00417A183B100200CE19C0 /* Foundation.framework */; };
+		EF00417D183B100200CE19C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF00417C183B100200CE19C0 /* CoreGraphics.framework */; };
+		EF00417F183B100200CE19C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF00417E183B100200CE19C0 /* UIKit.framework */; };
+		EF004185183B100200CE19C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF004183183B100200CE19C0 /* InfoPlist.strings */; };
+		EF004187183B100200CE19C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF004186183B100200CE19C0 /* main.m */; };
+		EF00418B183B100200CE19C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00418A183B100200CE19C0 /* AppDelegate.m */; };
+		EF00418E183B100200CE19C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF00418C183B100200CE19C0 /* Main.storyboard */; };
+		EF004191183B100200CE19C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF004190183B100200CE19C0 /* ViewController.m */; };
+		EF004193183B100200CE19C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF004192183B100200CE19C0 /* Images.xcassets */; };
+		EF00419A183B100200CE19C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF004199183B100200CE19C0 /* XCTest.framework */; };
+		EF00419B183B100200CE19C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF00417A183B100200CE19C0 /* Foundation.framework */; };
+		EF00419C183B100200CE19C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF00417E183B100200CE19C0 /* UIKit.framework */; };
+		EF0041A4183B100200CE19C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF0041A2183B100200CE19C0 /* InfoPlist.strings */; };
+		EF0041A6183B100200CE19C0 /* Error_HandlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0041A5183B100200CE19C0 /* Error_HandlingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF00419D183B100200CE19C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF00416F183B100200CE19C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF004176183B100200CE19C0;
+			remoteInfo = "Error Handling";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF004177183B100200CE19C0 /* Error Handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Error Handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF00417A183B100200CE19C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF00417C183B100200CE19C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF00417E183B100200CE19C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF004182183B100200CE19C0 /* Error Handling-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Error Handling-Info.plist"; sourceTree = "<group>"; };
+		EF004184183B100200CE19C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF004186183B100200CE19C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF004188183B100200CE19C0 /* Error Handling-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Error Handling-Prefix.pch"; sourceTree = "<group>"; };
+		EF004189183B100200CE19C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF00418A183B100200CE19C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF00418D183B100200CE19C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF00418F183B100200CE19C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF004190183B100200CE19C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF004192183B100200CE19C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF004198183B100200CE19C0 /* Error HandlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Error HandlingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF004199183B100200CE19C0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF0041A1183B100200CE19C0 /* Error HandlingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Error HandlingTests-Info.plist"; sourceTree = "<group>"; };
+		EF0041A3183B100200CE19C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF0041A5183B100200CE19C0 /* Error_HandlingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Error_HandlingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF004174183B100200CE19C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF00417D183B100200CE19C0 /* CoreGraphics.framework in Frameworks */,
+				EF00417F183B100200CE19C0 /* UIKit.framework in Frameworks */,
+				EF00417B183B100200CE19C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF004195183B100200CE19C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF00419A183B100200CE19C0 /* XCTest.framework in Frameworks */,
+				EF00419C183B100200CE19C0 /* UIKit.framework in Frameworks */,
+				EF00419B183B100200CE19C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF00416E183B100200CE19C0 = {
+			isa = PBXGroup;
+			children = (
+				EF004180183B100200CE19C0 /* Error Handling */,
+				EF00419F183B100200CE19C0 /* Error HandlingTests */,
+				EF004179183B100200CE19C0 /* Frameworks */,
+				EF004178183B100200CE19C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF004178183B100200CE19C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF004177183B100200CE19C0 /* Error Handling.app */,
+				EF004198183B100200CE19C0 /* Error HandlingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF004179183B100200CE19C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF00417A183B100200CE19C0 /* Foundation.framework */,
+				EF00417C183B100200CE19C0 /* CoreGraphics.framework */,
+				EF00417E183B100200CE19C0 /* UIKit.framework */,
+				EF004199183B100200CE19C0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF004180183B100200CE19C0 /* Error Handling */ = {
+			isa = PBXGroup;
+			children = (
+				EF004189183B100200CE19C0 /* AppDelegate.h */,
+				EF00418A183B100200CE19C0 /* AppDelegate.m */,
+				EF00418C183B100200CE19C0 /* Main.storyboard */,
+				EF00418F183B100200CE19C0 /* ViewController.h */,
+				EF004190183B100200CE19C0 /* ViewController.m */,
+				EF004192183B100200CE19C0 /* Images.xcassets */,
+				EF004181183B100200CE19C0 /* Supporting Files */,
+			);
+			path = "Error Handling";
+			sourceTree = "<group>";
+		};
+		EF004181183B100200CE19C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF004182183B100200CE19C0 /* Error Handling-Info.plist */,
+				EF004183183B100200CE19C0 /* InfoPlist.strings */,
+				EF004186183B100200CE19C0 /* main.m */,
+				EF004188183B100200CE19C0 /* Error Handling-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF00419F183B100200CE19C0 /* Error HandlingTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0041A5183B100200CE19C0 /* Error_HandlingTests.m */,
+				EF0041A0183B100200CE19C0 /* Supporting Files */,
+			);
+			path = "Error HandlingTests";
+			sourceTree = "<group>";
+		};
+		EF0041A0183B100200CE19C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF0041A1183B100200CE19C0 /* Error HandlingTests-Info.plist */,
+				EF0041A2183B100200CE19C0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF004176183B100200CE19C0 /* Error Handling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0041A9183B100200CE19C0 /* Build configuration list for PBXNativeTarget "Error Handling" */;
+			buildPhases = (
+				EF004173183B100200CE19C0 /* Sources */,
+				EF004174183B100200CE19C0 /* Frameworks */,
+				EF004175183B100200CE19C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Error Handling";
+			productName = "Error Handling";
+			productReference = EF004177183B100200CE19C0 /* Error Handling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF004197183B100200CE19C0 /* Error HandlingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0041AC183B100200CE19C0 /* Build configuration list for PBXNativeTarget "Error HandlingTests" */;
+			buildPhases = (
+				EF004194183B100200CE19C0 /* Sources */,
+				EF004195183B100200CE19C0 /* Frameworks */,
+				EF004196183B100200CE19C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF00419E183B100200CE19C0 /* PBXTargetDependency */,
+			);
+			name = "Error HandlingTests";
+			productName = "Error HandlingTests";
+			productReference = EF004198183B100200CE19C0 /* Error HandlingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF00416F183B100200CE19C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Code Fellows";
+				TargetAttributes = {
+					EF004197183B100200CE19C0 = {
+						TestTargetID = EF004176183B100200CE19C0;
+					};
+				};
+			};
+			buildConfigurationList = EF004172183B100200CE19C0 /* Build configuration list for PBXProject "Error Handling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF00416E183B100200CE19C0;
+			productRefGroup = EF004178183B100200CE19C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF004176183B100200CE19C0 /* Error Handling */,
+				EF004197183B100200CE19C0 /* Error HandlingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF004175183B100200CE19C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF004193183B100200CE19C0 /* Images.xcassets in Resources */,
+				EF004185183B100200CE19C0 /* InfoPlist.strings in Resources */,
+				EF00418E183B100200CE19C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF004196183B100200CE19C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0041A4183B100200CE19C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF004173183B100200CE19C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF004191183B100200CE19C0 /* ViewController.m in Sources */,
+				EF00418B183B100200CE19C0 /* AppDelegate.m in Sources */,
+				EF004187183B100200CE19C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF004194183B100200CE19C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0041A6183B100200CE19C0 /* Error_HandlingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF00419E183B100200CE19C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF004176183B100200CE19C0 /* Error Handling */;
+			targetProxy = EF00419D183B100200CE19C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF004183183B100200CE19C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF004184183B100200CE19C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF00418C183B100200CE19C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF00418D183B100200CE19C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF0041A2183B100200CE19C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0041A3183B100200CE19C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF0041A7183B100200CE19C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF0041A8183B100200CE19C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF0041AA183B100200CE19C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Error Handling/Error Handling-Prefix.pch";
+				INFOPLIST_FILE = "Error Handling/Error Handling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF0041AB183B100200CE19C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Error Handling/Error Handling-Prefix.pch";
+				INFOPLIST_FILE = "Error Handling/Error Handling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF0041AD183B100200CE19C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Error Handling.app/Error Handling";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Error Handling/Error Handling-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Error HandlingTests/Error HandlingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF0041AE183B100200CE19C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Error Handling.app/Error Handling";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Error Handling/Error Handling-Prefix.pch";
+				INFOPLIST_FILE = "Error HandlingTests/Error HandlingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF004172183B100200CE19C0 /* Build configuration list for PBXProject "Error Handling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0041A7183B100200CE19C0 /* Debug */,
+				EF0041A8183B100200CE19C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0041A9183B100200CE19C0 /* Build configuration list for PBXNativeTarget "Error Handling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0041AA183B100200CE19C0 /* Debug */,
+				EF0041AB183B100200CE19C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF0041AC183B100200CE19C0 /* Build configuration list for PBXNativeTarget "Error HandlingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0041AD183B100200CE19C0 /* Debug */,
+				EF0041AE183B100200CE19C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF00416F183B100200CE19C0 /* Project object */;
+}

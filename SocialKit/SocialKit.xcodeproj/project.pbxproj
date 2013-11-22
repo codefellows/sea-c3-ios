@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF048735183EF4960041D48C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF048734183EF4960041D48C /* Foundation.framework */; };
+		EF048737183EF4960041D48C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF048736183EF4960041D48C /* CoreGraphics.framework */; };
+		EF048739183EF4960041D48C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF048738183EF4960041D48C /* UIKit.framework */; };
+		EF04873F183EF4960041D48C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF04873D183EF4960041D48C /* InfoPlist.strings */; };
+		EF048741183EF4960041D48C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF048740183EF4960041D48C /* main.m */; };
+		EF048745183EF4960041D48C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF048744183EF4960041D48C /* AppDelegate.m */; };
+		EF048748183EF4960041D48C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF048746183EF4960041D48C /* Main.storyboard */; };
+		EF04874B183EF4960041D48C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF04874A183EF4960041D48C /* ViewController.m */; };
+		EF04874D183EF4960041D48C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF04874C183EF4960041D48C /* Images.xcassets */; };
+		EF048754183EF4960041D48C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF048753183EF4960041D48C /* XCTest.framework */; };
+		EF048755183EF4960041D48C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF048734183EF4960041D48C /* Foundation.framework */; };
+		EF048756183EF4960041D48C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF048738183EF4960041D48C /* UIKit.framework */; };
+		EF04875E183EF4960041D48C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF04875C183EF4960041D48C /* InfoPlist.strings */; };
+		EF048760183EF4960041D48C /* SocialKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF04875F183EF4960041D48C /* SocialKitTests.m */; };
+		EF0487AB183EF6190041D48C /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0487AA183EF6190041D48C /* placeholder.png */; };
+		EF0487AD183EF8C80041D48C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0487AC183EF8C70041D48C /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF048757183EF4960041D48C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF048729183EF4960041D48C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF048730183EF4960041D48C;
+			remoteInfo = SocialKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF048731183EF4960041D48C /* SocialKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF048734183EF4960041D48C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF048736183EF4960041D48C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF048738183EF4960041D48C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF04873C183EF4960041D48C /* SocialKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialKit-Info.plist"; sourceTree = "<group>"; };
+		EF04873E183EF4960041D48C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF048740183EF4960041D48C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF048742183EF4960041D48C /* SocialKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocialKit-Prefix.pch"; sourceTree = "<group>"; };
+		EF048743183EF4960041D48C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF048744183EF4960041D48C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF048747183EF4960041D48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF048749183EF4960041D48C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF04874A183EF4960041D48C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF04874C183EF4960041D48C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF048752183EF4960041D48C /* SocialKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF048753183EF4960041D48C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF04875B183EF4960041D48C /* SocialKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialKitTests-Info.plist"; sourceTree = "<group>"; };
+		EF04875D183EF4960041D48C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF04875F183EF4960041D48C /* SocialKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialKitTests.m; sourceTree = "<group>"; };
+		EF0487AA183EF6190041D48C /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		EF0487AC183EF8C70041D48C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF04872E183EF4960041D48C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0487AD183EF8C80041D48C /* Social.framework in Frameworks */,
+				EF048737183EF4960041D48C /* CoreGraphics.framework in Frameworks */,
+				EF048739183EF4960041D48C /* UIKit.framework in Frameworks */,
+				EF048735183EF4960041D48C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF04874F183EF4960041D48C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF048754183EF4960041D48C /* XCTest.framework in Frameworks */,
+				EF048756183EF4960041D48C /* UIKit.framework in Frameworks */,
+				EF048755183EF4960041D48C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF048728183EF4960041D48C = {
+			isa = PBXGroup;
+			children = (
+				EF04873A183EF4960041D48C /* SocialKit */,
+				EF048759183EF4960041D48C /* SocialKitTests */,
+				EF048733183EF4960041D48C /* Frameworks */,
+				EF048732183EF4960041D48C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF048732183EF4960041D48C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF048731183EF4960041D48C /* SocialKit.app */,
+				EF048752183EF4960041D48C /* SocialKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF048733183EF4960041D48C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0487AC183EF8C70041D48C /* Social.framework */,
+				EF048734183EF4960041D48C /* Foundation.framework */,
+				EF048736183EF4960041D48C /* CoreGraphics.framework */,
+				EF048738183EF4960041D48C /* UIKit.framework */,
+				EF048753183EF4960041D48C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF04873A183EF4960041D48C /* SocialKit */ = {
+			isa = PBXGroup;
+			children = (
+				EF0487AA183EF6190041D48C /* placeholder.png */,
+				EF048743183EF4960041D48C /* AppDelegate.h */,
+				EF048744183EF4960041D48C /* AppDelegate.m */,
+				EF048746183EF4960041D48C /* Main.storyboard */,
+				EF048749183EF4960041D48C /* ViewController.h */,
+				EF04874A183EF4960041D48C /* ViewController.m */,
+				EF04874C183EF4960041D48C /* Images.xcassets */,
+				EF04873B183EF4960041D48C /* Supporting Files */,
+			);
+			path = SocialKit;
+			sourceTree = "<group>";
+		};
+		EF04873B183EF4960041D48C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF04873C183EF4960041D48C /* SocialKit-Info.plist */,
+				EF04873D183EF4960041D48C /* InfoPlist.strings */,
+				EF048740183EF4960041D48C /* main.m */,
+				EF048742183EF4960041D48C /* SocialKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF048759183EF4960041D48C /* SocialKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF04875F183EF4960041D48C /* SocialKitTests.m */,
+				EF04875A183EF4960041D48C /* Supporting Files */,
+			);
+			path = SocialKitTests;
+			sourceTree = "<group>";
+		};
+		EF04875A183EF4960041D48C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF04875B183EF4960041D48C /* SocialKitTests-Info.plist */,
+				EF04875C183EF4960041D48C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF048730183EF4960041D48C /* SocialKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF048763183EF4960041D48C /* Build configuration list for PBXNativeTarget "SocialKit" */;
+			buildPhases = (
+				EF04872D183EF4960041D48C /* Sources */,
+				EF04872E183EF4960041D48C /* Frameworks */,
+				EF04872F183EF4960041D48C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialKit;
+			productName = SocialKit;
+			productReference = EF048731183EF4960041D48C /* SocialKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF048751183EF4960041D48C /* SocialKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF048766183EF4960041D48C /* Build configuration list for PBXNativeTarget "SocialKitTests" */;
+			buildPhases = (
+				EF04874E183EF4960041D48C /* Sources */,
+				EF04874F183EF4960041D48C /* Frameworks */,
+				EF048750183EF4960041D48C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF048758183EF4960041D48C /* PBXTargetDependency */,
+			);
+			name = SocialKitTests;
+			productName = SocialKitTests;
+			productReference = EF048752183EF4960041D48C /* SocialKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF048729183EF4960041D48C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Code Fellows";
+				TargetAttributes = {
+					EF048751183EF4960041D48C = {
+						TestTargetID = EF048730183EF4960041D48C;
+					};
+				};
+			};
+			buildConfigurationList = EF04872C183EF4960041D48C /* Build configuration list for PBXProject "SocialKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF048728183EF4960041D48C;
+			productRefGroup = EF048732183EF4960041D48C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF048730183EF4960041D48C /* SocialKit */,
+				EF048751183EF4960041D48C /* SocialKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF04872F183EF4960041D48C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0487AB183EF6190041D48C /* placeholder.png in Resources */,
+				EF04874D183EF4960041D48C /* Images.xcassets in Resources */,
+				EF04873F183EF4960041D48C /* InfoPlist.strings in Resources */,
+				EF048748183EF4960041D48C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF048750183EF4960041D48C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF04875E183EF4960041D48C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF04872D183EF4960041D48C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF04874B183EF4960041D48C /* ViewController.m in Sources */,
+				EF048745183EF4960041D48C /* AppDelegate.m in Sources */,
+				EF048741183EF4960041D48C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF04874E183EF4960041D48C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF048760183EF4960041D48C /* SocialKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF048758183EF4960041D48C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF048730183EF4960041D48C /* SocialKit */;
+			targetProxy = EF048757183EF4960041D48C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF04873D183EF4960041D48C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF04873E183EF4960041D48C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF048746183EF4960041D48C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF048747183EF4960041D48C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF04875C183EF4960041D48C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF04875D183EF4960041D48C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF048761183EF4960041D48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF048762183EF4960041D48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF048764183EF4960041D48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialKit/SocialKit-Prefix.pch";
+				INFOPLIST_FILE = "SocialKit/SocialKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF048765183EF4960041D48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialKit/SocialKit-Prefix.pch";
+				INFOPLIST_FILE = "SocialKit/SocialKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF048767183EF4960041D48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SocialKit.app/SocialKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialKit/SocialKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SocialKitTests/SocialKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF048768183EF4960041D48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SocialKit.app/SocialKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialKit/SocialKit-Prefix.pch";
+				INFOPLIST_FILE = "SocialKitTests/SocialKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF04872C183EF4960041D48C /* Build configuration list for PBXProject "SocialKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF048761183EF4960041D48C /* Debug */,
+				EF048762183EF4960041D48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF048763183EF4960041D48C /* Build configuration list for PBXNativeTarget "SocialKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF048764183EF4960041D48C /* Debug */,
+				EF048765183EF4960041D48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF048766183EF4960041D48C /* Build configuration list for PBXNativeTarget "SocialKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF048767183EF4960041D48C /* Debug */,
+				EF048768183EF4960041D48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF048729183EF4960041D48C /* Project object */;
+}

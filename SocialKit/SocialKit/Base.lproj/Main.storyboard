@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A598" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UqJ-pk-5gR"/>
+                        <viewControllerLayoutGuide type="bottom" id="ggo-cO-ppl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="eAI-iJ-dYX">
+                                <rect key="frame" x="0.0" y="124" width="320" height="320"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="320" id="eeX-u7-8xy"/>
+                                </constraints>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fus-dv-qbS">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem image="f" id="pt8-9A-6Ne">
+                                        <connections>
+                                            <action selector="shareAction:" destination="vXZ-lx-hvc" id="P92-GI-UaR"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Qpe-3t-Lx4"/>
+                                    <barButtonItem tag="1" image="twitter" id="lIh-cN-Btk">
+                                        <connections>
+                                            <action selector="shareAction:" destination="vXZ-lx-hvc" id="njl-I0-UaY"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="IdO-Ua-on3"/>
+                                    <barButtonItem tag="2" systemItem="action" id="0uK-md-0GF">
+                                        <connections>
+                                            <action selector="shareAction:" destination="vXZ-lx-hvc" id="8Gs-lh-Wkd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eAI-iJ-dYX" firstAttribute="leading" secondItem="Fus-dv-qbS" secondAttribute="leading" id="0MU-QG-bVN"/>
+                            <constraint firstAttribute="bottom" secondItem="Fus-dv-qbS" secondAttribute="bottom" id="48Q-jR-m4K"/>
+                            <constraint firstItem="Fus-dv-qbS" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="5Z6-XC-zGW"/>
+                            <constraint firstItem="eAI-iJ-dYX" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="124" id="KCk-qD-x7E"/>
+                            <constraint firstAttribute="trailing" secondItem="eAI-iJ-dYX" secondAttribute="trailing" id="c0N-PV-fR1"/>
+                            <constraint firstItem="eAI-iJ-dYX" firstAttribute="trailing" secondItem="Fus-dv-qbS" secondAttribute="trailing" id="wZz-QD-AFf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="vtd-Pp-NRT"/>
+                    <connections>
+                        <outlet property="imageView" destination="eAI-iJ-dYX" id="q8n-iv-2TN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="775" y="174"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="f" width="22" height="22"/>
+        <image name="placeholder" width="16" height="16"/>
+        <image name="twitter" width="22" height="22"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

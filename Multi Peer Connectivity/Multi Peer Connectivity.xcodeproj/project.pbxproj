@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF048776183EF4C00041D48C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF048775183EF4C00041D48C /* Foundation.framework */; };
+		EF048778183EF4C00041D48C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF048777183EF4C00041D48C /* CoreGraphics.framework */; };
+		EF04877A183EF4C00041D48C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF048779183EF4C00041D48C /* UIKit.framework */; };
+		EF048780183EF4C00041D48C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF04877E183EF4C00041D48C /* InfoPlist.strings */; };
+		EF048782183EF4C00041D48C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF048781183EF4C00041D48C /* main.m */; };
+		EF048786183EF4C00041D48C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF048785183EF4C00041D48C /* AppDelegate.m */; };
+		EF048789183EF4C00041D48C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF048787183EF4C00041D48C /* Main.storyboard */; };
+		EF04878C183EF4C00041D48C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF04878B183EF4C00041D48C /* ViewController.m */; };
+		EF04878E183EF4C00041D48C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF04878D183EF4C00041D48C /* Images.xcassets */; };
+		EF048795183EF4C00041D48C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF048794183EF4C00041D48C /* XCTest.framework */; };
+		EF048796183EF4C00041D48C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF048775183EF4C00041D48C /* Foundation.framework */; };
+		EF048797183EF4C00041D48C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF048779183EF4C00041D48C /* UIKit.framework */; };
+		EF04879F183EF4C00041D48C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF04879D183EF4C00041D48C /* InfoPlist.strings */; };
+		EF0487A1183EF4C00041D48C /* Multi_Peer_ConnectivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0487A0183EF4C00041D48C /* Multi_Peer_ConnectivityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF048798183EF4C00041D48C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF04876A183EF4C00041D48C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF048771183EF4C00041D48C;
+			remoteInfo = "Multi Peer Connectivity";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF048772183EF4C00041D48C /* Multi Peer Connectivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi Peer Connectivity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF048775183EF4C00041D48C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF048777183EF4C00041D48C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF048779183EF4C00041D48C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF04877D183EF4C00041D48C /* Multi Peer Connectivity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multi Peer Connectivity-Info.plist"; sourceTree = "<group>"; };
+		EF04877F183EF4C00041D48C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF048781183EF4C00041D48C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF048783183EF4C00041D48C /* Multi Peer Connectivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Multi Peer Connectivity-Prefix.pch"; sourceTree = "<group>"; };
+		EF048784183EF4C00041D48C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF048785183EF4C00041D48C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF048788183EF4C00041D48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF04878A183EF4C00041D48C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF04878B183EF4C00041D48C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF04878D183EF4C00041D48C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF048793183EF4C00041D48C /* Multi Peer ConnectivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi Peer ConnectivityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF048794183EF4C00041D48C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF04879C183EF4C00041D48C /* Multi Peer ConnectivityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multi Peer ConnectivityTests-Info.plist"; sourceTree = "<group>"; };
+		EF04879E183EF4C00041D48C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF0487A0183EF4C00041D48C /* Multi_Peer_ConnectivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Multi_Peer_ConnectivityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF04876F183EF4C00041D48C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF048778183EF4C00041D48C /* CoreGraphics.framework in Frameworks */,
+				EF04877A183EF4C00041D48C /* UIKit.framework in Frameworks */,
+				EF048776183EF4C00041D48C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF048790183EF4C00041D48C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF048795183EF4C00041D48C /* XCTest.framework in Frameworks */,
+				EF048797183EF4C00041D48C /* UIKit.framework in Frameworks */,
+				EF048796183EF4C00041D48C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF048769183EF4C00041D48C = {
+			isa = PBXGroup;
+			children = (
+				EF04877B183EF4C00041D48C /* Multi Peer Connectivity */,
+				EF04879A183EF4C00041D48C /* Multi Peer ConnectivityTests */,
+				EF048774183EF4C00041D48C /* Frameworks */,
+				EF048773183EF4C00041D48C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF048773183EF4C00041D48C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF048772183EF4C00041D48C /* Multi Peer Connectivity.app */,
+				EF048793183EF4C00041D48C /* Multi Peer ConnectivityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF048774183EF4C00041D48C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF048775183EF4C00041D48C /* Foundation.framework */,
+				EF048777183EF4C00041D48C /* CoreGraphics.framework */,
+				EF048779183EF4C00041D48C /* UIKit.framework */,
+				EF048794183EF4C00041D48C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF04877B183EF4C00041D48C /* Multi Peer Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				EF048784183EF4C00041D48C /* AppDelegate.h */,
+				EF048785183EF4C00041D48C /* AppDelegate.m */,
+				EF048787183EF4C00041D48C /* Main.storyboard */,
+				EF04878A183EF4C00041D48C /* ViewController.h */,
+				EF04878B183EF4C00041D48C /* ViewController.m */,
+				EF04878D183EF4C00041D48C /* Images.xcassets */,
+				EF04877C183EF4C00041D48C /* Supporting Files */,
+			);
+			path = "Multi Peer Connectivity";
+			sourceTree = "<group>";
+		};
+		EF04877C183EF4C00041D48C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF04877D183EF4C00041D48C /* Multi Peer Connectivity-Info.plist */,
+				EF04877E183EF4C00041D48C /* InfoPlist.strings */,
+				EF048781183EF4C00041D48C /* main.m */,
+				EF048783183EF4C00041D48C /* Multi Peer Connectivity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF04879A183EF4C00041D48C /* Multi Peer ConnectivityTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0487A0183EF4C00041D48C /* Multi_Peer_ConnectivityTests.m */,
+				EF04879B183EF4C00041D48C /* Supporting Files */,
+			);
+			path = "Multi Peer ConnectivityTests";
+			sourceTree = "<group>";
+		};
+		EF04879B183EF4C00041D48C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF04879C183EF4C00041D48C /* Multi Peer ConnectivityTests-Info.plist */,
+				EF04879D183EF4C00041D48C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF048771183EF4C00041D48C /* Multi Peer Connectivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0487A4183EF4C00041D48C /* Build configuration list for PBXNativeTarget "Multi Peer Connectivity" */;
+			buildPhases = (
+				EF04876E183EF4C00041D48C /* Sources */,
+				EF04876F183EF4C00041D48C /* Frameworks */,
+				EF048770183EF4C00041D48C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multi Peer Connectivity";
+			productName = "Multi Peer Connectivity";
+			productReference = EF048772183EF4C00041D48C /* Multi Peer Connectivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF048792183EF4C00041D48C /* Multi Peer ConnectivityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0487A7183EF4C00041D48C /* Build configuration list for PBXNativeTarget "Multi Peer ConnectivityTests" */;
+			buildPhases = (
+				EF04878F183EF4C00041D48C /* Sources */,
+				EF048790183EF4C00041D48C /* Frameworks */,
+				EF048791183EF4C00041D48C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF048799183EF4C00041D48C /* PBXTargetDependency */,
+			);
+			name = "Multi Peer ConnectivityTests";
+			productName = "Multi Peer ConnectivityTests";
+			productReference = EF048793183EF4C00041D48C /* Multi Peer ConnectivityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF04876A183EF4C00041D48C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Code Fellows";
+				TargetAttributes = {
+					EF048792183EF4C00041D48C = {
+						TestTargetID = EF048771183EF4C00041D48C;
+					};
+				};
+			};
+			buildConfigurationList = EF04876D183EF4C00041D48C /* Build configuration list for PBXProject "Multi Peer Connectivity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF048769183EF4C00041D48C;
+			productRefGroup = EF048773183EF4C00041D48C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF048771183EF4C00041D48C /* Multi Peer Connectivity */,
+				EF048792183EF4C00041D48C /* Multi Peer ConnectivityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF048770183EF4C00041D48C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF04878E183EF4C00041D48C /* Images.xcassets in Resources */,
+				EF048780183EF4C00041D48C /* InfoPlist.strings in Resources */,
+				EF048789183EF4C00041D48C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF048791183EF4C00041D48C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF04879F183EF4C00041D48C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF04876E183EF4C00041D48C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF04878C183EF4C00041D48C /* ViewController.m in Sources */,
+				EF048786183EF4C00041D48C /* AppDelegate.m in Sources */,
+				EF048782183EF4C00041D48C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF04878F183EF4C00041D48C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0487A1183EF4C00041D48C /* Multi_Peer_ConnectivityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF048799183EF4C00041D48C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF048771183EF4C00041D48C /* Multi Peer Connectivity */;
+			targetProxy = EF048798183EF4C00041D48C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF04877E183EF4C00041D48C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF04877F183EF4C00041D48C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF048787183EF4C00041D48C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF048788183EF4C00041D48C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF04879D183EF4C00041D48C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF04879E183EF4C00041D48C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF0487A2183EF4C00041D48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF0487A3183EF4C00041D48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF0487A5183EF4C00041D48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multi Peer Connectivity/Multi Peer Connectivity-Prefix.pch";
+				INFOPLIST_FILE = "Multi Peer Connectivity/Multi Peer Connectivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF0487A6183EF4C00041D48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multi Peer Connectivity/Multi Peer Connectivity-Prefix.pch";
+				INFOPLIST_FILE = "Multi Peer Connectivity/Multi Peer Connectivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF0487A8183EF4C00041D48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Multi Peer Connectivity.app/Multi Peer Connectivity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multi Peer Connectivity/Multi Peer Connectivity-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Multi Peer ConnectivityTests/Multi Peer ConnectivityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF0487A9183EF4C00041D48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Multi Peer Connectivity.app/Multi Peer Connectivity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multi Peer Connectivity/Multi Peer Connectivity-Prefix.pch";
+				INFOPLIST_FILE = "Multi Peer ConnectivityTests/Multi Peer ConnectivityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF04876D183EF4C00041D48C /* Build configuration list for PBXProject "Multi Peer Connectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0487A2183EF4C00041D48C /* Debug */,
+				EF0487A3183EF4C00041D48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0487A4183EF4C00041D48C /* Build configuration list for PBXNativeTarget "Multi Peer Connectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0487A5183EF4C00041D48C /* Debug */,
+				EF0487A6183EF4C00041D48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF0487A7183EF4C00041D48C /* Build configuration list for PBXNativeTarget "Multi Peer ConnectivityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0487A8183EF4C00041D48C /* Debug */,
+				EF0487A9183EF4C00041D48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF04876A183EF4C00041D48C /* Project object */;
+}
